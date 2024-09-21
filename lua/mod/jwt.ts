@@ -1,3 +1,7 @@
+import test from './test.json';
+
+console.log(test);
+
 redis.call('set', 'some-key', 'some-value')
 redis.call('set', 'x', 1)
 redis.call('expire', 'hello')

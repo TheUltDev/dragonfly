@@ -1,4 +1,5 @@
-/// <reference path='./commands.d.ts' />
+/// <reference path='./commands.d.ts'/>
+/// <reference path='./datatypes.d.ts'/>
 
 type NotListed<T> = T extends keyof RedisCommands ? never : T
 
